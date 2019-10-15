@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+
+      <meta charset="utf-8">
+      <!---The Company Name --->
+      <title>
+         Kryption
+      </title>
+      <script type="text/javascript" src="scripts/main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+      <link rel="stylesheet" type="text/css" href="layout.css" media="screen" />
+	  <style>
+
+</style>
+</head>
+   <body>
+      <!--- Tab links -->
+      <div class="tab">
+         <button class="tablinks" onclick="openTab(event, 'home')" id="defaultOpen">Home</button>
+         <button class="tablinks" onclick="openTab(event, 'about')" >About</button>
+         <button class="tablinks" onclick="openTab(event, 'encryption')" >Encryption</button>
+      </div>
+      <!--- Home tab -->
+      <div id="home" class="tabcontent">
+         <p>
+            Kryption is our company name.
+         </p>
+         <img src="img/Kryptionred.png" alt="Logo Picture" width="900" height="450">
+         <p>
+           We are dedicated to providing quality service to those who choose to keep their data secure with Kryption.
+         </p>
+         <p> Click on our About tab to see what our company is about</p>
+         <p> To encrypt your data click on the Encryption tab</p>
+      </div>
+	  <!--- About tab -->
+      <div id="about" class="tabcontent">
+         <h2>About Kryption</h2>
+
+         <p>
+            What is Kryption, you might ask? Our Missions Statement is "keeping your data safe so you don't have to".
+         </p>
+         <p> We will protect your data from anything, so that nothing will happend to it.</p>
+      </div>
+	  <!--- Encryption tab -->
+      <div id="encryption" class="tabcontent">
+
+		<p> Text you would like to encrypt/decrypt </p>
+         <input type="text" id="decryptedtext" value="" />
+         <p> Enter secret passphrase </p>
+         <input type="text" id="secretpassphrase" value="" />
+         <br>
+         <p>Click the encryption button to secure data</p>
+         <button onclick="encrypt()">ENCRYPT</button>
+         <p>Click the decryption button to decipher the encoded information.</p>
+         <button onclick="decrypt()">DECRYPT</button>
+         <br>
+         <textarea id="output" rows="1" cols="50"></textarea>
+
+      </div>
+   </body>
+</html>

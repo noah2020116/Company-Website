@@ -1,0 +1,40 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+​
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+}

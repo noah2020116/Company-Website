@@ -1,0 +1,29 @@
+margin-top: 100px;
+margin-bottom: 120;px;
+margin-right: 100px;
+margin-left: 100px;
+
+title{
+  font-size: 20px;
+}
+ h1 {
+  font-size: 40px;
+  /* margin: auto; */
+}
+h2 {
+ font-size: 40px;
+ /* margin: auto; */
+}
+p {
+  font-size: 20px;
+}
+
+.tab {
+  overflow: hidden;
+}
+
+.tab button {
+  float: left;
+  outline: none;
+  transition: 0.3s;
+}
